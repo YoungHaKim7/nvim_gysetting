@@ -3,6 +3,12 @@
 - https://github.com/YoungHaKim7/lvim_Rust_AI_Setting
 
 <hr>
+:
+# lsp-inlayhints Color Setting(LspInlayHint로 해야 Comment까지 안됨)
+
+```
+:hi LspInlayHint guifg=#35638f guibg=#420517
+```
 
 # nvim_gysetting
 
