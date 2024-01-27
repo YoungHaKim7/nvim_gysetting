@@ -365,7 +365,7 @@ return packer.startup(function(use)
     -- cmp LSP completion
     "hrsh7th/cmp-nvim-lsp",
     -- cmp Snippet completion
-    "hrsh7th/cmp-vsnip",
+    -- "hrsh7th/cmp-vsnip",
     -- cmp Path completion
     "hrsh7th/cmp-path",
     "hrsh7th/cmp-buffer",
@@ -373,6 +373,12 @@ return packer.startup(function(use)
     requires = { "hrsh7th/nvim-cmp" },
   }
   -- ----------------------------------------------
+  -- AutoPair
+  use {
+    "windwp/nvim-autopairs",
+      config = function() require("nvim-autopairs").setup {} end
+  }
+  -- ---------
   -- Comment
   use {
     "numToStr/Comment.nvim",

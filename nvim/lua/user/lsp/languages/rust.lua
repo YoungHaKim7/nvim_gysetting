@@ -74,7 +74,7 @@ local cmp = require("cmp")
 cmp.setup({
   snippet = {
     expand = function(args)
-      vim.fn["vsnip#anonymous"](args.body)
+      -- vim.fn["vsnip#anonymous"](args.body)
     end,
   },
   mapping = {
@@ -87,6 +87,10 @@ cmp.setup({
     ["<C-f>"] = cmp.mapping.scroll_docs(4),
     ["<C-Space>"] = cmp.mapping.complete(),
     ["<C-e>"] = cmp.mapping.close(),
+    ["<C-y>"] = cmp.mapping.confirm({
+      behavior = cmp.ConfirmBehavior.Insert,
+      select = true,
+    }),
     ["<CR>"] = cmp.mapping.confirm({
       behavior = cmp.ConfirmBehavior.Insert,
       select = true,
@@ -96,7 +100,7 @@ cmp.setup({
   -- Installed sources
   sources = {
     { name = "nvim_lsp" },
-    { name = "vsnip" },
+    -- { name = "vsnip" },
     { name = "path" },
     { name = "buffer" },
   },
