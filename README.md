@@ -8,6 +8,11 @@
 
 ```
 :hi LspInlayHint guifg=#35638f guibg=#420517
+
+
+// 요즘 쓰는 색 240106
+:hi LspInlayHint guifg=#35638f guibg=#420517
+:hi Comment guifg=#35638f guibg=#420517
 ```
 
 # nvim_gysetting
