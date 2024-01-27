@@ -15,6 +15,20 @@ toggler = {
                 line = 'gcc',
 ```
 
+# Key Setting
+
+```
+-- Normal Mode
+key_map("n", "<leader>W", ":wqall<CR>", opts)
+key_map("n", "<leader>e", ":Neotree<CR>", opts)
+key_map("n", "<leader>t", ":TroubleToggle<CR>", opts)
+key_map("n", "<leader>o", ":SymbolsOutline<CR>", opts)
+
+
+-- Insert Mode
+key_map("i","jk", "<Esc>", opts)
+```
+
 # Nvim - Surround
 
 - https://github.com/kylechui/nvim-surround 
