@@ -1,5 +1,10 @@
-# nvim_gysetting
+# 내 LunarVim Setting
 
+- https://github.com/YoungHaKim7/lvim_Rust_AI_Setting
+
+<hr>
+
+# nvim_gysetting
 
 ```
 Visual Mode에서는
