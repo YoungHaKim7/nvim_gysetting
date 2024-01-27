@@ -83,3 +83,7 @@ rm -rf ~/.cache/nvim
 # Rust LSP setting
 https://sharksforarms.dev/posts/neovim-rust/
 
+# 에러해결 error 
+
+- smp-vsnip(snippet해결)
+  - https://github.com/hrsh7th/nvim-cmp/issues/24
