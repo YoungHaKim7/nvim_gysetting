@@ -10,5 +10,6 @@ require "user.lsp"
 require("nvim-surround").setup()
 require("mason").setup()
 require("symbols-outline").setup()
+require('Comment').setup()
 
 -- require "user.icons"
