@@ -430,7 +430,6 @@ return packer.startup(function(use)
   }
 
   -- Adds extra functionality over rust analyzer
-  use{"simrat39/inlay-hints.nvim"}
   use{"simrat39/rust-tools.nvim"}
   use{"simrat39/symbols-outline.nvim"}
   use{"folke/trouble.nvim",
