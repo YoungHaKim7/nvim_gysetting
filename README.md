@@ -55,6 +55,23 @@ key_map("i","jk", "<Esc>", opts)
 ```
 <hr>
 
+# 세팅하다가 작살나면 캐쉬삭제 해주기
+
+```
+// 백업
+mkdir ~/backup_nvim
+cp -r ~/.config/nvim ~/backup_nvim
+cp -r ~/.local/share/nvim ~/backup_nvim
+cp -r ~/.cache/nvim ~/backup_nvim
+
+// 캐쉬삭제
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+```
+
+- https://docs.rockylinux.org/ko/books/nvchad/install_nvchad/
+
 # install and use packer in neovim
 
 - https://linovox.com/install-and-use-packer-in-neovim/
