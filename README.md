@@ -94,4 +94,6 @@ https://sharksforarms.dev/posts/neovim-rust/
   - https://github.com/hrsh7th/nvim-cmp/issues/24
 
 # Inlay Hint 바로 옆에 뜨게 하기
-- https://stackoverflow.com/questions/77193939/enable-inlayhints-in-neovim-with-lsp-zero
+- 단서1 https://stackoverflow.com/questions/77193939/enable-inlayhints-in-neovim-with-lsp-zero
+- 단서2 https://www.reddit.com/r/neovim/comments/14e41rb/today_on_nightly_native_lsp_inlay_hint_support/
+- 단서3 https://github.com/lvimuser/lsp-inlayhints.nvim
