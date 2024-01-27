@@ -92,3 +92,6 @@ https://sharksforarms.dev/posts/neovim-rust/
 
 - smp-vsnip(snippet해결)
   - https://github.com/hrsh7th/nvim-cmp/issues/24
+
+# Inlay Hint 바로 옆에 뜨게 하기
+- https://stackoverflow.com/questions/77193939/enable-inlayhints-in-neovim-with-lsp-zero
