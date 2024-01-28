@@ -11,9 +11,8 @@ vim.api.nvim_create_autocmd("LspAttach", {
       return
     end
 
-    local bufnr = args.buf
     local client = vim.lsp.get_client_by_id(args.data.client_id)
-    require("lsp-inlayhints").on_attach(client, bufnr)
+    require("lsp-inlayhints").on_attach(client, args.buf)
   end,
 })
 
@@ -44,7 +43,7 @@ hints.setup {
     -- padding from the right if right_align is true
     right_align_padding = 7,
     -- highlight group
-    highlight = "Comment",
+    highlight = "LspInlayHint",
   },
   debug_mode = false,
 }

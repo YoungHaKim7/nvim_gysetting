@@ -40,36 +40,12 @@ local opts = {
       use_telescope = true,
     },
     inlay_hints = {
-          parameter_hints = {
-            show = true,
-            prefix = "<- ",
-            separator = ", ",
-            remove_colon_start = false,
-            remove_colon_end = true,
-          },
-          type_hints = {
-            -- type and other hints
-            show = true,
-            prefix = "",
-            separator = ", ",
-            remove_colon_start = false,
-            remove_colon_end = true,
-          },
-          only_current_line = false,
-          -- separator between types and parameter hints. Note that type hints are
-          -- shown before parameter
-          labels_separator = "  ",
-          -- whether to align to the length of the longest line in the file
-          max_len_align = false,
-          -- padding from the left if max_len_align is true
-          max_len_align_padding = 1,
-          -- highlight group
-          highlight = "LspInlayHint",
-          -- virt_text priority
-          priority = 0,
-        },
-        enabled_at_startup = true,
-        debug_mode = false,
+      auto = true,
+      show_parameter_hints = true,
+      parameter_hints_prefix = " :",
+      other_hints_prefix = ": ",
+      highlight = "LspInlayHint",
+    },
   },
 
   -- all the opts to send to nvim-lspconfig
@@ -92,8 +68,6 @@ local opts = {
 }
 
 require("rust-tools").setup(opts)
-
-
 
 -- Setup Completion
 -- See https://github.com/hrsh7th/nvim-cmp#basic-configuration
@@ -118,10 +92,6 @@ cmp.setup({
       behavior = cmp.ConfirmBehavior.Insert,
       select = true,
     }),
-    -- ["<CR>"] = cmp.mapping.confirm({
-    --   behavior = cmp.ConfirmBehavior.Insert,
-    --   select = true,
-    -- }),
   },
 
   -- Installed sources
