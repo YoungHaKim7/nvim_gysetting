@@ -172,3 +172,6 @@ https://sharksforarms.dev/posts/neovim-rust/
 - 단서1 https://stackoverflow.com/questions/77193939/enable-inlayhints-in-neovim-with-lsp-zero
 - 단서2 https://www.reddit.com/r/neovim/comments/14e41rb/today_on_nightly_native_lsp_inlay_hint_support/
 - 단서3 https://github.com/lvimuser/lsp-inlayhints.nvim
+
+# NeoVim Tutorial
+- https://github.com/mjlbach/starter.nvim
