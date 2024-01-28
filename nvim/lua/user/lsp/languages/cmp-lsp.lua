@@ -1,3 +1,5 @@
+--
+-- Configure LSP through rust-tools.nvim plugin.
 -- Setup Completion
 -- See https://github.com/hrsh7th/nvim-cmp#basic-configuration
 local cmp = require("cmp")
