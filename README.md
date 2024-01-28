@@ -159,7 +159,7 @@ rm -rf ~/.cache/nvim
 # Rust LSP setting[[🔝]](#my-lunarvim-setting)
 https://sharksforarms.dev/posts/neovim-rust/
 
-# Font Ininstall[[🔝]](#my-lunarvim-setting)
+# NerdFont Ininstall[[🔝]](#my-lunarvim-setting)
 
 - https://www.nerdfonts.com/
 
