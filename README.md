@@ -16,7 +16,7 @@
 :hi Comment guifg=#35638f guibg=#420517
 ```
 
-# nvim_gysetting
+# nvim_gysetting[[🔝]](#my-lunarvim-setting)
 
 ```
 Visual Mode에서는
@@ -32,7 +32,7 @@ toggler = {
                 line = 'gcc',
 ```
 
-# Key Setting
+# Key Setting[[🔝]](#my-lunarvim-setting)
 
 ```
 -- Normal Mode
@@ -54,7 +54,7 @@ key_map("n", "H", "gT", opts)
 key_map("i","jk", "<Esc>", opts)
 ```
 
-# LSP key세팅
+# LSP key세팅[[🔝]](#my-lunarvim-setting)
 
 ```
 local lsp = require("lsp-zero")
@@ -113,7 +113,7 @@ vim.diagnostic.config({
 
 ```
 
-# Nvim - Surround
+# Nvim - Surround[[🔝]](#my-lunarvim-setting)
 
 - https://github.com/kylechui/nvim-surround 
 
@@ -131,7 +131,7 @@ vim.diagnostic.config({
 ```
 <hr>
 
-# 세팅하다가 작살나면 캐쉬삭제 해주기
+# 세팅하다가 작살나면 캐쉬삭제 해주기[[🔝]](#my-lunarvim-setting)
 
 ```
 // 백업
@@ -148,27 +148,27 @@ rm -rf ~/.cache/nvim
 
 - https://docs.rockylinux.org/ko/books/nvchad/install_nvchad/
 
-# install and use packer in neovim
+# install and use packer in neovim[[🔝]](#my-lunarvim-setting)
 
 - https://linovox.com/install-and-use-packer-in-neovim/
 
-# mason 
+# mason [[🔝]](#my-lunarvim-setting)
 
 - https://github.com/williamboman/mason.nvim
 
-# Rust LSP setting
+# Rust LSP setting[[🔝]](#my-lunarvim-setting)
 https://sharksforarms.dev/posts/neovim-rust/
 
-# Font Ininstall
+# Font Ininstall[[🔝]](#my-lunarvim-setting)
 
 - https://www.nerdfonts.com/
 
-# 에러해결 error 
+# 에러해결 error [[🔝]](#my-lunarvim-setting)
 
 - smp-vsnip(snippet해결)
   - https://github.com/hrsh7th/nvim-cmp/issues/24
 
-# Inlay Hint 바로 옆에 뜨게 하기
+# Inlay Hint 바로 옆에 뜨게 하기[[🔝]](#my-lunarvim-setting)
 - 단서1 https://stackoverflow.com/questions/77193939/enable-inlayhints-in-neovim-with-lsp-zero
 - 단서2 https://www.reddit.com/r/neovim/comments/14e41rb/today_on_nightly_native_lsp_inlay_hint_support/
 - 단서3 https://github.com/lvimuser/lsp-inlayhints.nvim
