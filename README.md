@@ -158,6 +158,10 @@ rm -rf ~/.cache/nvim
 # Rust LSP setting
 https://sharksforarms.dev/posts/neovim-rust/
 
+# Font Ininstall
+
+- https://www.nerdfonts.com/
+
 # 에러해결 error 
 
 - smp-vsnip(snippet해결)
