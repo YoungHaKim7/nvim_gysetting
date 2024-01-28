@@ -1,4 +1,5 @@
 require "user.lsp.languages.rust"
+require "user.lsp.languages.cmp-lsp"
 -- require"user.lsp.languages.golang"
 -- require "user.lsp.languages.sh"
 -- require"user.lsp.languages.js-ts"

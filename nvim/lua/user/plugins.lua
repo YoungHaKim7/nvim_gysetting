@@ -494,13 +494,13 @@ return packer.startup(function(use)
       end
   }
   -- dashboard
-	use {
-		"startup-nvim/startup.nvim",
-		requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
-		config = function()
-			require"startup".setup(require"config.dashboard")
-		end
-	}
+	-- use {
+	-- 	"startup-nvim/startup.nvim",
+	-- 	requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+	-- 	config = function()
+	-- 		require"startup".setup(require"config.dashboard")
+	-- 	end
+	-- }
 
   -- Install {} Your Plugin ~~~~~~~
   -- use { "wbthomason/packer.nvim" } -- sample code Have packer manage itself	
