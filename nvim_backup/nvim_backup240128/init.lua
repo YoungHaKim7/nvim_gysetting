@@ -11,6 +11,5 @@ require("nvim-surround").setup()
 require("mason").setup()
 require("symbols-outline").setup()
 require('Comment').setup()
-require("nvim-autopairs").setup()
 
 -- require "user.icons"

@@ -504,13 +504,6 @@ return packer.startup(function(use)
 
   -- Install {} Your Plugin ~~~~~~~
   -- use { "wbthomason/packer.nvim" } -- sample code Have packer manage itself	
-  -- -- ----------------------------------------------
-  -- AutoPair
-  use {
-    "windwp/nvim-autopairs",
-      config = function() require("nvim-autopairs").setup {} end
-  }
-  -- ---------
   use{
       "kylechui/nvim-surround",
       tag = "*", -- Use for stability; omit to use `main` branch for the latest features
