@@ -1,4 +1,4 @@
-# 내 LunarVim Setting
+# My LunarVim Setting
 
 - https://github.com/YoungHaKim7/lvim_Rust_AI_Setting
 
