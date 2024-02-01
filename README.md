@@ -29,7 +29,7 @@
 <hr>
 
 
-# lsp-inlayhints Color Setting(LspInlayHint로 해야 Comment까지 안됨)
+# lsp-inlayhints Color Setting(LspInlayHint로 해야 Comment까지 안됨)[[🔝]](#contents)
 
 ```
 :hi LspInlayHint guifg=#35638f guibg=#420517
