@@ -42,6 +42,7 @@ packer.init({
 return packer.startup(function(use)
 	use { "wbthomason/packer.nvim" } -- Have packer manage itself	
 	use { "folke/tokyonight.nvim" }  -- colorscheme tokyonight
+  use { "j-hui/fidget.nvim" } -- fidget
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",

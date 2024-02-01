@@ -5,7 +5,7 @@ require "user.whichkey"
 require "user.options"
 require "user.inlay-hints"
 require "user.lsp"
-
+require "user.fidget"
 
 require("nvim-surround").setup()
 require("mason").setup()
