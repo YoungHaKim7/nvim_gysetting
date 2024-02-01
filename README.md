@@ -11,6 +11,10 @@
 
 - https://github.com/YoungHaKim7/lvim_Rust_AI_Setting
 
+# Windows에 쓸만한 NeoVim
+
+- https://github.com/YoungHaKim7/nvim_gy_NvChad_version
+
 <hr>
 
 
