@@ -13,6 +13,7 @@
 - [러스트 LSP세팅 Rust LSP Setting](#rust-lsp-setting)
 - [nvim gcc로 커멘트 처리하기 comment](#nvim_gysetting)
 - [내 neovim key 세팅](#key-setting)
+- [neovim용 surround key 익히기 단축키 알아보기surround neovim surround vim에서 더 좋은거 하나 추가](#nvim---surround)
 
 <hr>
 
