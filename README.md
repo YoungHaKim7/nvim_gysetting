@@ -9,7 +9,7 @@
 
 # Contents
 
-[설치하다가 작살나면 캐쉬 삭제하기](#%EC%84%B8%ED%8C%85%ED%95%98%EB%8B%A4%EA%B0%80-%EC%9E%91%EC%82%B4%EB%82%98%EB%A9%B4-%EC%BA%90%EC%89%AC%EC%82%AD%EC%A0%9C-%ED%95%B4%EC%A3%BC%EA%B8%B0)
+[설치하다가 작살나면 캐쉬 삭제하기rm -rf ~/.config/nvim](#%EC%84%B8%ED%8C%85%ED%95%98%EB%8B%A4%EA%B0%80-%EC%9E%91%EC%82%B4%EB%82%98%EB%A9%B4-%EC%BA%90%EC%89%AC%EC%82%AD%EC%A0%9C-%ED%95%B4%EC%A3%BC%EA%B8%B0)
 
 <hr>
 
