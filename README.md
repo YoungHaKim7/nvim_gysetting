@@ -35,7 +35,7 @@
 :hi Comment guifg=#35638f guibg=#420517
 ```
 
-# nvim_gysetting[[🔝]](#my-lunarvim-setting)
+# nvim_gysetting[[🔝]](#contents)
 
 ```
 Visual Mode에서는
@@ -51,7 +51,7 @@ toggler = {
                 line = 'gcc',
 ```
 
-# Key Setting[[🔝]](#my-lunarvim-setting)
+# Key Setting[[🔝]](#contents)
 
 ```
 -- Normal Mode
@@ -73,7 +73,7 @@ key_map("n", "H", "gT", opts)
 key_map("i","jk", "<Esc>", opts)
 ```
 
-# LSP key map[[🔝]](#my-lunarvim-setting)
+# LSP key map[[🔝]](#contents)
 
 ```
   vim.keymap.set("n", "<c-]>", vim.lsp.buf.definition, keymap_opts)
@@ -90,7 +90,7 @@ key_map("i","jk", "<Esc>", opts)
 ```
 
 
-# LSP key세팅[[🔝]](#my-lunarvim-setting)
+# LSP key세팅[[🔝]](#contents)
 
 ```
 local lsp = require("lsp-zero")
@@ -149,7 +149,7 @@ vim.diagnostic.config({
 
 ```
 
-# Nvim - Surround[[🔝]](#my-lunarvim-setting)
+# Nvim - Surround[[🔝]](#contents)
 
 - https://github.com/kylechui/nvim-surround 
 
@@ -167,7 +167,7 @@ vim.diagnostic.config({
 ```
 <hr>
 
-# 세팅하다가 작살나면 캐쉬삭제 해주기[[🔝]](#my-lunarvim-setting)
+# 세팅하다가 작살나면 캐쉬삭제 해주기[[🔝]](#contents)
 
 ```
 // 백업
@@ -184,30 +184,30 @@ rm -rf ~/.cache/nvim
 
 - https://docs.rockylinux.org/ko/books/nvchad/install_nvchad/
 
-# install and use packer in neovim[[🔝]](#my-lunarvim-setting)
+# install and use packer in neovim[[🔝]](#contents)
 
 - https://linovox.com/install-and-use-packer-in-neovim/
 
-# mason [[🔝]](#my-lunarvim-setting)
+# mason [[🔝]](#contents)
 
 - https://github.com/williamboman/mason.nvim
 
-# Rust LSP setting[[🔝]](#my-lunarvim-setting)
+# Rust LSP setting[[🔝]](#contents)
 https://sharksforarms.dev/posts/neovim-rust/
 
-# NerdFont Ininstall[[🔝]](#my-lunarvim-setting)
+# NerdFont Ininstall[[🔝]](#contents)
 
 - https://www.nerdfonts.com/
 
-# 에러해결 error [[🔝]](#my-lunarvim-setting)
+# 에러해결 error [[🔝]](#contents)
 
 - smp-vsnip(snippet해결)
   - https://github.com/hrsh7th/nvim-cmp/issues/24
 
-# Inlay Hint 바로 옆에 뜨게 하기[[🔝]](#my-lunarvim-setting)
+# Inlay Hint 바로 옆에 뜨게 하기[[🔝]](#contents)
 - 단서1 https://stackoverflow.com/questions/77193939/enable-inlayhints-in-neovim-with-lsp-zero
 - 단서2 https://www.reddit.com/r/neovim/comments/14e41rb/today_on_nightly_native_lsp_inlay_hint_support/
 - 단서3 https://github.com/lvimuser/lsp-inlayhints.nvim
 
-# NeoVim Tutorial
+# NeoVim Tutorial[[🔝]](#contents)
 - https://github.com/mjlbach/starter.nvim
